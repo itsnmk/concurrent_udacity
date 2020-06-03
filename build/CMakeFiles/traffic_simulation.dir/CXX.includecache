@@ -6,6 +6,7 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD
 /home/workspace/Concurrent-Traffic-Simulation/src/Graphics.cpp
 iostream
 -
@@ -30,6 +31,8 @@ opencv2/core.hpp
 TrafficObject.h
 /home/workspace/Concurrent-Traffic-Simulation/src/TrafficObject.h
 
+=======
+>>>>>>> 797a827f093c603e2f9614e685dcbf1501b9a8b9
 /home/workspace/Concurrent-Traffic-Simulation/src/Intersection.cpp
 iostream
 -
@@ -62,6 +65,7 @@ TrafficObject.h
 TrafficLight.h
 /home/workspace/Concurrent-Traffic-Simulation/src/TrafficLight.h
 
+<<<<<<< HEAD
 /home/workspace/Concurrent-Traffic-Simulation/src/Street.cpp
 iostream
 -
@@ -72,6 +76,8 @@ Intersection.h
 Street.h
 /home/workspace/Concurrent-Traffic-Simulation/src/Street.h
 
+=======
+>>>>>>> 797a827f093c603e2f9614e685dcbf1501b9a8b9
 /home/workspace/Concurrent-Traffic-Simulation/src/Street.h
 TrafficObject.h
 /home/workspace/Concurrent-Traffic-Simulation/src/TrafficObject.h
@@ -94,6 +100,7 @@ thread
 mutex
 -
 
+<<<<<<< HEAD
 /home/workspace/Concurrent-Traffic-Simulation/src/TrafficSimulator-Final.cpp
 iostream
 -
@@ -122,10 +129,13 @@ Intersection.h
 Vehicle.h
 /home/workspace/Concurrent-Traffic-Simulation/src/Vehicle.h
 
+=======
+>>>>>>> 797a827f093c603e2f9614e685dcbf1501b9a8b9
 /home/workspace/Concurrent-Traffic-Simulation/src/Vehicle.h
 TrafficObject.h
 /home/workspace/Concurrent-Traffic-Simulation/src/TrafficObject.h
 
+<<<<<<< HEAD
 /usr/local/include/opencv4/opencv2/calib3d.hpp
 opencv2/core.hpp
 /usr/local/include/opencv4/opencv2/opencv2/core.hpp
@@ -1380,3 +1390,5 @@ opencv2/viz/viz3d.hpp
 opencv2/viz/types.hpp
 -
 
+=======
+>>>>>>> 797a827f093c603e2f9614e685dcbf1501b9a8b9

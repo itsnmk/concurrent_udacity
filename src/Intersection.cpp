@@ -12,14 +12,22 @@
 
 int WaitingVehicles::getSize()
 {
+<<<<<<< HEAD
     std::lock_guard<std::mutex> lock(_mutex_waiting_vehicles);
+=======
+    std::lock_guard<std::mutex> lock(_mutex);
+>>>>>>> 797a827f093c603e2f9614e685dcbf1501b9a8b9
 
     return _vehicles.size();
 }
 
 void WaitingVehicles::pushBack(std::shared_ptr<Vehicle> vehicle, std::promise<void> &&promise)
 {
+<<<<<<< HEAD
     std::lock_guard<std::mutex> lock(_mutex_waiting_vehicles);
+=======
+    std::lock_guard<std::mutex> lock(_mutex);
+>>>>>>> 797a827f093c603e2f9614e685dcbf1501b9a8b9
 
     _vehicles.push_back(vehicle);
     _promises.push_back(std::move(promise));
@@ -27,7 +35,11 @@ void WaitingVehicles::pushBack(std::shared_ptr<Vehicle> vehicle, std::promise<vo
 
 void WaitingVehicles::permitEntryToFirstInQueue()
 {
+<<<<<<< HEAD
     std::lock_guard<std::mutex> lock(_mutex_waiting_vehicles);
+=======
+    std::lock_guard<std::mutex> lock(_mutex);
+>>>>>>> 797a827f093c603e2f9614e685dcbf1501b9a8b9
 
     // get entries from the front of both queues
     auto firstPromise = _promises.begin();
